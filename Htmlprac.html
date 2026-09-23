@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOG IN</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    
+    div {
+      width: 100%;
+      max-width: 500px;
+      background: beige;
+      padding:30px 30px;
+      border-radius: 10px;
+      box-shadow: 10px 5px 0;color: rgb(94,74,36)
+    }
+    .container{
+      width: 500px;
+
+      
+    }
+    button{
+      background-color: rgba(186, 198, 116, 0.6784313725490196);
+      width:100% ;
+      height: 30px;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color:hwb(86 15% 49%);
+    }
+    
+    body {
+    margin: 10px;
+    min-height: 100vh;
+
+    background: radial-gradient(
+        circle at 30% 30%,
+        rgb(245,245,188),
+        rgb(207, 228, 118)
+    ) !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+      }
+    
+    h2{
+      margin: 0px;
+      padding: 1px 15px 25px;
+      text-align: center;
+    }
+    button{
+      margin: 0px;
+      padding: 7px 90px 20px;
+      text-align: center;
+    }
+    h5 {
+    margin: 0 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+  }
+
+
+    
+  </style>
+</head>
+  <body>
+    <div>
+      <h2> Log in </h2>
+      
+      <form action="submit" method="post">
+        <h5>Username</h5>
+        <label for="name"></label>
+        <input type="text" placeholder="Enter username"><br>
+        <label for="password"><h5>Password</h5></label>
+        <input type="password" placeholder="Enter your password">
+        <br></br>
+        
+        <class="options">
+    <span>
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+    </span>
+
+    <a href="ForgotPass.html">Forgot password?</a>
+        <br></br>
+
+        <button>
+          Log in
+        </button>
+
+        
+        
+      </form>
+    </div>
+  </body>
+</html>
